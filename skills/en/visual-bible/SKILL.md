@@ -1,6 +1,6 @@
 ---
 name: visual-bible
-description: Write a short visual bible for AI video, AI comic drama (AI-generated serial short drama) and animated shorts: one-line style, color, light, materials, camera texture, time-of-day and weather variants, don'ts, scale baseline, plus an asset image style block and a video style block you can paste straight into prompts. Works for any look (3D, 2D, live action). Build it once at project start, then add a row only when a new time of day, weather or style block appears. It does not design shots or describe characters.
+description: "Write a short visual bible for AI video, AI comic drama (AI-generated serial short drama) and animated shorts: one-line style, color, light, materials, camera texture, time-of-day and weather variants, don'ts, scale baseline, plus an asset image style block and a video style block you can paste straight into prompts. Works for any look (3D, 2D, live action). Build it once at project start, then add a row only when a new time of day, weather or style block appears. It does not design shots or describe characters."
 license: MIT
 metadata:
   version: "0.1.0"
