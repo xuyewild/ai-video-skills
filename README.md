@@ -14,6 +14,16 @@ These two skills came out of all those redos.
 
 You can install either one alone. English is in `skills/en/`, Chinese in `skills/zh/`, same content.
 
+## Three fixes, before and after
+
+From 5 rounds of Seedance 2.5 tests. All three changed the output. [16 more like this](examples/seedance-2.5-before-after.md), each with the exact line.
+
+| I wrote | What came out | I write now |
+|---|---|---|
+| `a line of light slashes across` | a thin laser, no weight | thickness, volume, flame, sparks, debris, sized against the scene, then "not a thin laser line" |
+| the impact shot framed the mountain, the giant out of frame | the slash hit the mountain | whatever gets hit is the subject of the shot |
+| `camera tilts down from face to feet`, 1 second | a row of boots, can't tell who | 1-second shots stay locked-off |
+
 ## Is this for you?
 
 If you're making comic dramas, short dramas, animated shorts or music videos with dozens or hundreds of clips per project, if your style or color or proportions keep drifting between episodes, or if fights and chases come out wrong no matter how many times you regenerate, yes. If you only need a clip or two, you don't need it.
@@ -28,7 +38,15 @@ If you're making comic dramas, short dramas, animated shorts or music videos wit
 
 ## Install
 
-**Claude Code**: copy the skill folders you want into `~/.claude/skills/` (global) or `.claude/skills/` in your project.
+**Claude Code** (2.1.275 or later), one line:
+
+```
+/plugin install ai-video-skills-en --marketplace xuyewild/ai-video-skills
+```
+
+Use `ai-video-skills-zh` for the Chinese version. On older versions, run `/plugin marketplace add xuyewild/ai-video-skills` first, then `/plugin install ai-video-skills-en@ai-video-skills`.
+
+Or copy the skill folders you want into `~/.claude/skills/` (global) or `.claude/skills/` in your project.
 
 ```bash
 git clone https://github.com/xuyewild/ai-video-skills

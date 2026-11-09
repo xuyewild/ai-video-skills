@@ -14,6 +14,16 @@
 
 两个能分开装。中文在 `skills/zh/`，英文在 `skills/en/`，内容一样。
 
+## 三条改前改后
+
+来自 Seedance 2.5 的 5 轮对照测试，这三条改完成片都变了。[一共 16 条](examples/seedance-2.5-改前改后.md)，每条都附原句。
+
+| 原来写 | 出来的 | 现在写 |
+|---|---|---|
+| `一道光线斩过去` | 一根细激光，没分量 | 写厚度、体积、烈焰火星碎屑，用场景里的东西给尺寸，最后加“不是细细的激光线” |
+| 命中镜头只拍到山，被打的巨物不在画面里 | 斩击砍在山上 | 被打的东西必须是这一镜的主体 |
+| `镜头从脸降到脚`，只给 1 秒 | 一排靴子，认不出是谁 | 1 秒镜头固定机位 |
+
 ## 啥时候用得上
 
 做漫剧、短剧、动画短片、MV，一个项目要几十上百条视频的；画风、色调、人物比例老是一集一集漂的；打斗、追逐、摔投重生成多少次都不对的。只出一两条的话用不着。
@@ -28,7 +38,15 @@
 
 ## 安装
 
-**Claude Code**：把要用的 skill 文件夹复制到 `~/.claude/skills/`（全局）或者项目里的 `.claude/skills/`。
+**Claude Code**（2.1.275 及以上）一行装好：
+
+```
+/plugin install ai-video-skills-zh --marketplace xuyewild/ai-video-skills
+```
+
+英文版换成 `ai-video-skills-en`。老版本先跑 `/plugin marketplace add xuyewild/ai-video-skills`，再 `/plugin install ai-video-skills-zh@ai-video-skills`。
+
+也可以把要用的 skill 文件夹复制到 `~/.claude/skills/`（全局）或者项目里的 `.claude/skills/`。
 
 ```bash
 git clone https://github.com/xuyewild/ai-video-skills

@@ -1,0 +1,11 @@
+{
+  "name": "ai-video-skills",
+  "owner": { "name": "xuyewild" },
+  "description": "Skills from making thousands of AI video clips: visual bible and fight choreography. English and Chinese.",
+  "plugins": [
+    { "name": "ai-video-skills-en", "source": "./", "description": "Visual bible + fight choreography for AI video (English)", "strict": false,
+      "skills": ["./skills/en/visual-bible", "./skills/en/action-physics-choreography"] },
+    { "name": "ai-video-skills-zh", "source": "./", "description": "视觉圣经 + 动作物理与编排（中文）", "strict": false,
+      "skills": ["./skills/zh/visual-bible", "./skills/zh/action-physics-choreography"] }
+  ]
+}
